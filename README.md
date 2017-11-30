@@ -1,4 +1,4 @@
-## Platzi Practice
+# Platzi Practice
 Files and notes of Planzi practice courses
 
-# Javascript fundamentals
+## Javascript fundamentals
