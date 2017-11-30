@@ -14,7 +14,7 @@ let height = 7;
 let triangleArea = (base, height) => base * height / 2;
 
 console.log(
-  `El área del trián gulo de base ${base} y altura ${height} es: ${triangleArea(
+  `El área del triángulo de base ${base} y altura ${height} es: ${triangleArea(
     base,
     height
   )}`
