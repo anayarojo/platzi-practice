@@ -1,5 +1,5 @@
 # Platzi Practice
-Files and notes of Planzi practice courses
+Files and notes
 
 ## Javascript fundamentals
 1. Calculate triangule area
