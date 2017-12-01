@@ -26,3 +26,6 @@ for (let i = 0; i < length; i++) {
 const promedioKms = totalKms / length
 console.log(`En promedio, ${nombre} corrió ${promedioKms.toFixed(2)}kms`)
 
+math.floor; // Rendondea hacia abajo 3.9 = 3
+math.ceil; // Redondea para arriba 3.1 = 4
+math.round; // Redondea dependiendo 3.1 = 3, 3.5 = 4
