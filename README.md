@@ -14,3 +14,7 @@ Files and notes
 1. Classes with sugar syntax
 1. Array operations
 1. Closures
+1. Language structure
+1. This
+
+
