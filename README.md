@@ -8,4 +8,7 @@ Files and notes
 1. Invent a language
 1. Run
 1. Fight
-1. Dates
+1. Basic objects
+1. Advanced objects
+1. Create objects
+1. Classes with sugar syntax
