@@ -12,3 +12,5 @@ Files and notes
 1. Advanced objects
 1. Create objects
 1. Classes with sugar syntax
+1. Array operations
+1. Closures
