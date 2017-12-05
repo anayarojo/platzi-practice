@@ -1,5 +1,3 @@
-//calculate triangle area
-
 let base = 5;
 let height = 7;
 
