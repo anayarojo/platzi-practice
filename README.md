@@ -14,3 +14,12 @@ Files and notes
 1. Classes with sugar syntax
 1. Array operations
 1. Closures
+1. Language structure
+1. This
+1. Bind
+1. Call and apply
+1. ECMA Script
+1. Callbacks
+1. Promises
+
+
