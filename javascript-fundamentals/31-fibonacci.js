@@ -1,5 +1,5 @@
 //---------- FORMA 1 -----------------------//
-functionfibonacci(){
+function functionfibonacci() {
     let a = 0, b = 1
     //Closure
     return {
@@ -18,7 +18,7 @@ fibo.next().value
 
 // ----- FORMA 2 ----------//
 
-functionfibonacci(){
+function functionfibonacci() {
     let a = 0, b = 1
     //Closure
     return {
@@ -39,4 +39,4 @@ for (let value of fibo) {
     console.log(value)
     i++
     if (i > 20) break
-} ```
+}

@@ -30,5 +30,8 @@ Files and notes
 1. Callbaks with promices
 1. Recursion
 1. Memoization
+1. Fibonacci
+1. Generators
+1. Immnutable data structures
 
 
