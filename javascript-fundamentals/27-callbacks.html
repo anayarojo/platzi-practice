@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Callbacks</title>
+</head>
+
+<body>
+    <h1 id="agenda">Estoy despertando</h1>
+    <script>
+
+        const $agenda = document.getElementById('agenda');
+
+        const activities = {
+            DESPERTAR: 3000,
+            DUCHA: 2000,
+            VESTIRSE: 2000,
+            DESAYUNAR: 3000,
+            PLATZI: 5000
+        }
+
+        const despertar = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve("Ahora me estoy duchando...")
+            }, activities.DESPERTAR);
+        })
+
+        setTimeout(() => {
+            $agenda.textContent = 'Ahora me estoy duchando...';
+            setTimeout(() => {
+                $agenda.textContent = 'Me estoy vistiendo...';
+                setTimeout(() => {
+                    $agenda.textContent = 'Ahora estoy desayunando...';
+                    setTimeout(() => {
+                        $agenda.textContent = 'Que lindo es estudiar en Platzi...';
+                        setTimeout(() => {
+                            $agenda.textContent = 'Y javascript es mi lenguaje favorito <3';
+                        }, activities.PLATZI)
+                    }, activities.DESAYUNAR)
+                }, activities.VESTIRSE);
+            }, activities.DUCHA)
+        }, activities.DESPERTAR)
+
+    </script>
+</body>
+
+</html>

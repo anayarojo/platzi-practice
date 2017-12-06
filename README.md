@@ -21,5 +21,14 @@ Files and notes
 1. ECMA Script
 1. Callbacks
 1. Promises
+1. Async await
+1. Set timeout
+1. Set interval
+1. Clear timeout
+1. Clear interval
+1. Callbacks
+1. Callbaks with promices
+1. Recursion
+1. Memoization
 
 
